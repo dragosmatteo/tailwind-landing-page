@@ -27,7 +27,7 @@
             <!-- Button -->
             <a
                href="#"
-               class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+               class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
                >Get Started</a
             >
 
@@ -388,6 +388,15 @@
          </div>
       </footer>
 
-      <script src="js/script.js"></script>
+      <script>
+         const btn = document.getElementById("menu-btn");
+         const nav = document.getElementById("menu");
+
+         btn.addEventListener("click", () => {
+            btn.classList.toggle("open");
+            nav.classList.toggle("flex");
+            nav.classList.toggle("hidden");
+         });
+      </script>
    </body>
 </html>
