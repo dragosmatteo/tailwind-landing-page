@@ -1,3 +1,3 @@
 # Tailwind Manage Landing Page
 
-![Alt text](/img/screen.png?raw=true)
+![IMG](/img/screen.png?raw=true)
